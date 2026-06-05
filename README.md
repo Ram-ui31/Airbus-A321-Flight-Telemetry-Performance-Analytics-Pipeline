@@ -2,7 +2,7 @@
 
 An end-to-end data engineering and flight physics optimization pipeline that ingests high-frequency (10Hz) mobile sensor logs to accurately reconstruct flight trajectories, calculate dynamic aircraft fuel burn using OpenAP, and analyze flight dynamics.
 
-![Flight Performance Dashboard Thumbnail](photo1.jpeg)
+![Flight Performance Dashboard Thumbnail](photo1.png)
 
 ---
 
@@ -38,7 +38,7 @@ Adjusting the starting mass parameter from a near-takeoff standard down to an ac
 ### 2. Fuel Metrics Engine
 Using OpenAP's kinematic engine, the model dynamically tracks instantaneous engine metrics as flight parameters adjust. By resolving timeline gaps, the pipeline accurately captures real-time thrust demands and maps localized tracking efficiency metrics across varying altitude vectors.
 
-![Fuel Metrics and Go-Around Analysis](photo2.jpeg)
+![Fuel Metrics and Go-Around Analysis](photo2.png)
 
 ---
 
